@@ -41,7 +41,7 @@ app.command("/hughmanns-bot-catfact", async ({ack,respond}) => {
 app.command("/hughmanns-bot-joke", async({ack,respond}) => {
     await ack();
     try {
-        const response = await axios.get("https.official-joke-api.appspot.com/random_joke");
+        const response = await axios.get("https://official-joke-api.appspot.com/random_joke");
         await respond({
             text:
             `${response.data.setup}
