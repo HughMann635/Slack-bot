@@ -1,0 +1,25 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "A bot on Slack called 'hughmanns-bot' that can use slash commands, be pinged, and more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HughMann635/Slack-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HughMann635/Slack-bot/issues"
+  },
+  "homepage": "https://github.com/HughMann635/Slack-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^4.7.3",
+    "dotenv": "^17.4.2"
+  }
+}
