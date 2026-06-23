@@ -24,7 +24,8 @@ app.command("/hughmanns-bot-help",async({ack,respond}) => {
     `Available Commands:
     /hughmanns-bot-help - Displays this menu.
     /hughmanns-bot-ping - Pings the bot! Check for latency.
-    /hughmanns-bot-catfact - Get a cat fact.`
+    /hughmanns-bot-catfact - Get a cat fact.
+    /hughmanns-bot-joke - Tell a joke.`
     });
 });
 
